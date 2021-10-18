@@ -1,0 +1,11 @@
+.intro__subtitle{
+  margin: 0;
+  color:#F4A460;
+  padding-bottom: 34px;
+  text-transform: uppercase;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}

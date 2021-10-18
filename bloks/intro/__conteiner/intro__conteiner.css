@@ -1,0 +1,7 @@
+.intro__conteiner{
+  display: grid;
+  padding: 92px 148px 92px;
+  margin: 0 auto;
+  grid-template-columns: auto 360px;
+  grid-column-gap: 80px;
+}

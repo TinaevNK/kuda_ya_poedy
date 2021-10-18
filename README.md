@@ -5,11 +5,11 @@ header
   header__link
 header
 main
-  where-go
-    wgere-go__subtitle
-    where-go__title
-    where-go__photo
-  where-go
+  intro
+    intro__subtitle
+    intro__title
+    intro__photo
+  intro
   places
     place
       place__title

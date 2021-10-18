@@ -1,0 +1,6 @@
+.intro__image{
+  width: 100%;
+  object-fit: cover;
+  max-width: 360px;
+  max-height: 360px;
+}
