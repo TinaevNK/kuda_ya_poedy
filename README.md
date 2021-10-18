@@ -1,0 +1,61 @@
+header
+  header__slogan
+  header__slogan
+header
+main
+  where-go
+    wgere-go__subtitle
+    where-go__title
+    where-go__photo
+  where-go
+  places
+    place
+      place__title
+      place__image
+      place__text
+        place__paragrph
+        place__paragrph
+      place__text
+    place
+    place
+      place__title
+      place__image
+      place__text
+        place__paragrph
+        place__paragrph
+      place__text
+    placeplace
+      place__title
+      place__image
+      place__text
+        place__paragrph
+        place__paragrph
+      place__text
+    place
+  places
+  quotes
+    quotes__subtitle
+    quotes__title
+    quote
+      quotes__author
+      quotes__text
+    quote
+    quote
+      quotes__author
+      quotes__text
+    quote
+    quote
+      quotes__author
+      quotes__text
+    quote
+    quote
+      quotes__author
+      quotes__text
+    quote
+  quotes
+main
+footer
+  footer__year
+footer
+
+
