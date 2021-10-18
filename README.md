@@ -1,6 +1,8 @@
 header
   header__slogan
   header__slogan
+  header__slogan
+  header__link
 header
 main
   where-go

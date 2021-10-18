@@ -1,3 +1,17 @@
-.header__slogan{
+.header__slogan {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 32px;
+}
 
+@media screen and (max-width: 502px) {
+  .header__slogan {
+    flex-direction: column;
+  }
+
+  .header__slogan{
+    margin-bottom: 32px;
+  }
 }
