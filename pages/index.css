@@ -4,12 +4,13 @@
 @import url(../bloks/page/page.css);
 @import url(../bloks/main/main.css);
 @import url(../bloks/header/header.css);
-@import url(../bloks/header/__conteiner/header__conteiner.css);
+@import url(../bloks/page/__header/page__header.css);
 @import url(../bloks/header/__link/header__link.css);
 @import url(../bloks/header/__slogan/header__slogan.css);
 @import url(../bloks/header/__slogan-item/header__slogan-item.css);
+@import url(../bloks/header/__navigator/header__navigator.css);
 @import url(../bloks/intro/intro.css);
-@import url(../bloks/intro/__conteiner/intro__conteiner.css);
+@import url(../bloks/main/__intro/main__intro.css);
 @import url(../bloks/intro/__image/intro__image.css);
 @import url(../bloks/intro/__subtitle/intro__subtitle.css);
 @import url(../bloks/intro/__title/intro__title.css);
