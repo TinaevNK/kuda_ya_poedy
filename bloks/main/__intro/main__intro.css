@@ -1,9 +1,30 @@
 .main__intro {
   display: grid;
+  justify-content: center;
   padding-top: 92px;
   padding-left: 48px;
   padding-bottom: 92px;
+  padding-right: 92px;
   margin: 0 auto;
-  grid-template-columns: auto 360px;
+  grid-template-columns: minmax(320px, 600px) 360px;
   grid-column-gap: 80px;
+}
+
+@media screen and (max-width: 875px) {
+  .main__intro {
+    padding-top: 48px;
+    padding-left: 24px;
+    padding-bottom: 48px;
+    padding-right: 48px;
+    grid-column-gap: 20px;
+    grid-template-columns: minmax(320px, 600px) 320px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .main__intro {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
 }

@@ -7,8 +7,18 @@
   padding: 38px 48px 46px;
 }
 
+@media screen and (max-width: 875px) {
+  .header__navigator {
+    padding-top: 48px;
+    padding-left: 24px;
+    padding-bottom: 48px;
+    padding-right: 24px;
+  }
+}
+
 @media screen and (max-width: 502px) {
   .header__navigator {
+    padding-top: 24px;
     flex-direction: column;
     align-items: flex-start;
   }
