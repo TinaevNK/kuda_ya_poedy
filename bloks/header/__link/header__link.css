@@ -1,4 +1,4 @@
-.header__link{
+.header__link {
   text-decoration: none;
   color: #000;
   font-family: Inter, Arial, Helvetica, sans-serif;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 502px) {
-  .header__link{
+  .header__link {
     font-size: 24px;
     line-height: 26px;
   }
