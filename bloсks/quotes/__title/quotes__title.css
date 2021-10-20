@@ -1,0 +1,23 @@
+.quotes__title {
+  margin: 0;
+  text-decoration: none;
+  padding-bottom: 98px;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 40px;
+  max-width: 440px;
+}
+
+@media screen and (max-width: 768px) {
+  .quotes__title {
+    font-size: 26px;
+    line-height: 28px;
+    padding-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .quotes__title {
+    padding-bottom: 48px;
+  }
+}

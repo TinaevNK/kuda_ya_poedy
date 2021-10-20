@@ -19,6 +19,7 @@
 @media screen and (max-width: 502px) {
   .header__navigator {
     padding-top: 24px;
+    padding-bottom: 24px;
     flex-direction: column;
     align-items: flex-start;
     /* предлагаю шапку оставить в горизонтальном виде и уменьшить шрифты

@@ -2,45 +2,65 @@
 /* Подключаем шрифты */
 @import url(../fonts/fonts.css);
 /* Задаём фоновый цвет всей странице */
-@import url(../bloks/body/body.css);
+@import url(../bloсks/body/body.css);
 /* Определяем размеры контентной зоны */
-@import url(../bloks/page/page.css);
+@import url(../bloсks/page/page.css);
 
 /* Задаём парметры для шапки */
-@import url(../bloks/header/header.css);
+@import url(../bloсks/header/header.css);
 /* Навигация, делаем флексом */
-@import url(../bloks/header/__navigator/header__navigator.css);
+@import url(../bloсks/header/__navigator/header__navigator.css);
 /* Левая часть шапки */
-@import url(../bloks/header/__slogan/header__slogan.css);
-/* Ссылки в левой части */
-@import url(../bloks/header/__slogan-link/header__slogan-link.css);
-/* Ссылка в правой части */
-@import url(../bloks/header/__link/header__link.css);
+@import url(../bloсks/header/__slogan/header__slogan.css);
+/* Ссылки в левой части и в правой */
+@import url(../bloсks/header/__link/header__link.css);
 
 /* ЗЫ: обрати внимание в какой последовательности стоят классы
 так же как и в html, так намного легче читать код
 Блоки разделяй пробелом */
 
-@import url(../bloks/main/main.css);
-@import url(../bloks/intro/intro.css);
-@import url(../bloks/main/__intro/main__intro.css);
-@import url(../bloks/intro/__image/intro__image.css);
-@import url(../bloks/intro/__subtitle/intro__subtitle.css);
-@import url(../bloks/intro/__title/intro__title.css);
-@import url(../bloks/intro/__text/intro__text.css);
-@import url(../bloks/link/link.css);
+/*секция intro*/
+@import url(../bloсks/intro/intro.css);
+/*контейнер для текста intro__text*/
+@import url(../bloсks/intro/__text/intro__text.css);
+/*элемент intro__subtitle подзаголовок*/
+@import url(../bloсks/intro/__subtitle/intro__subtitle.css);
+/*элемент intro__title заголовок*/
+@import url(../bloсks/intro/__title/intro__title.css);
+/*элемент intro__image картинка*/
+@import url(../bloсks/intro/__image/intro__image.css);
+
+
 
 /* секция places */
-@import url(../bloks/places/places.css);
+@import url(../bloсks/places/places.css);
 
 /* блок place-image */
-@import url(../bloks/place-image/place-image.css);
+@import url(../bloсks/place-image/place-image.css);
 
 /* блок place-text */
-@import url(../bloks/place-text/place-text.css);
+@import url(../bloсks/place-text/place-text.css);
 /* его заголовок */
-@import url(../bloks/place-text/__title/place-text__title.css);
+@import url(../bloсks/place-text/__title/place-text__title.css);
 /* контейнер текста */
-@import url(../bloks/place-text/__description/place-text__description.css);
+@import url(../bloсks/place-text/__description/place-text__description.css);
 /* текст */
-@import url(../bloks/place-text/__paragraph/place-text__paragraph.css);
+@import url(../bloсks/place-text/__paragraph/place-text__paragraph.css);
+
+
+
+/*секция quotes*/
+@import url(../bloсks/quotes/quotes.css);
+/*элемент subtitle*/
+@import url(../bloсks/quotes/__subtitle/quotes__subtitle.css);
+/*элемент title*/
+@import url(../bloсks/quotes/__title/quotes__title.css);
+/*элемент table*/
+@import url(../bloсks/quotes/__table/quotes__table.css);
+
+/*блок quote*/
+@import url(../bloсks/quote/quote.css);
+/*элемент author*/
+@import url(../bloсks/quote/__author/quote__author.css);
+/*элемент text*/
+@import url(../bloсks/quote/__text/quote__text.css);

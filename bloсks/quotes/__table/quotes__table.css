@@ -1,0 +1,7 @@
+.quotes__table {
+  max-width: 1184px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 45px;
+}

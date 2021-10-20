@@ -1,4 +1,6 @@
-.main__intro {
+.intro {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
   display: grid;
   justify-content: center;
   padding-top: 92px;
@@ -11,7 +13,7 @@
 }
 
 @media screen and (max-width: 875px) {
-  .main__intro {
+  .intro {
     padding-top: 48px;
     padding-left: 24px;
     padding-bottom: 48px;
@@ -22,7 +24,7 @@
 }
 
 @media screen and (max-width: 690px) {
-  .main__intro {
+  .intro {
     display: flex;
     flex-direction: column;
     gap: 48px;
