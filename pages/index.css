@@ -1,14 +1,27 @@
 @import url(../vendor/normalize.css);
+/* Подключаем шрифты */
 @import url(../fonts/fonts.css);
+/* Задаём фоновый цвет всей странице */
 @import url(../bloks/body/body.css);
+/* Определяем размеры контентной зоны */
 @import url(../bloks/page/page.css);
-@import url(../bloks/main/main.css);
+
+/* Задаём парметры для шапки */
 @import url(../bloks/header/header.css);
-@import url(../bloks/page/__header/page__header.css);
-@import url(../bloks/header/__link/header__link.css);
-@import url(../bloks/header/__slogan/header__slogan.css);
-@import url(../bloks/header/__slogan-link/header__slogan-link.css);
+/* Навигация, делаем флексом */
 @import url(../bloks/header/__navigator/header__navigator.css);
+/* Левая часть шапки */
+@import url(../bloks/header/__slogan/header__slogan.css);
+/* Ссылки в левой части */
+@import url(../bloks/header/__slogan-link/header__slogan-link.css);
+/* Ссылка в правой части */
+@import url(../bloks/header/__link/header__link.css);
+
+/* ЗЫ: обрати внимание в какой последовательности стоят классы
+так же как и в html, так намного легче читать код
+Блоки разделяй пробелом */
+
+@import url(../bloks/main/main.css);
 @import url(../bloks/intro/intro.css);
 @import url(../bloks/main/__intro/main__intro.css);
 @import url(../bloks/intro/__image/intro__image.css);
@@ -16,3 +29,18 @@
 @import url(../bloks/intro/__title/intro__title.css);
 @import url(../bloks/intro/__text/intro__text.css);
 @import url(../bloks/link/link.css);
+
+/* секция places */
+@import url(../bloks/places/places.css);
+
+/* блок place-image */
+@import url(../bloks/place-image/place-image.css);
+
+/* блок place-text */
+@import url(../bloks/place-text/place-text.css);
+/* его заголовок */
+@import url(../bloks/place-text/__title/place-text__title.css);
+/* контейнер текста */
+@import url(../bloks/place-text/__description/place-text__description.css);
+/* текст */
+@import url(../bloks/place-text/__paragraph/place-text__paragraph.css);

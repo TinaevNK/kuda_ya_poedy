@@ -1,0 +1,10 @@
+.place-text {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 76%;
+  margin: 0 auto;
+  padding: 65px 0 85px;
+}

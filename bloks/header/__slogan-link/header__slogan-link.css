@@ -1,11 +1,15 @@
 .header__slogan-link{
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
+  /* font-family и color пропиши в header, тут нет надобности в дубляже*/
   text-decoration: none;
   color: #000;
   font-weight: bold;
   font-size: 14px;
+  /* Высоту строки советую прописать в десятичном виде. Нам +10 к карме */
   line-height: 16px;
+  /* Пропиши opasity .7 для наведения, создадим интерактивность
+  transition: opacity .3s ease; и такой закон изменения*/
 }
 
 @media screen and (max-width: 502px) {
