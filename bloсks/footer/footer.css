@@ -1,8 +1,9 @@
-.footer{
+.footer {
   display: flex;
   align-items: center;
   font-family: Inter, Arial, Helvetica, sans-serif;
   background-color: #fecda7;
   width: 100%;
+  max-height: 603px;
   height: 47.1vw;
 }
