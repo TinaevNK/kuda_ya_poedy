@@ -8,9 +8,14 @@
   padding-bottom: 130px;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
   .quotes{
-    padding-left: 48px;
-    padding-right: 48px;
+    padding: 0 48px 110px;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .quotes {
+    padding: 0 24px 70px;
   }
 }

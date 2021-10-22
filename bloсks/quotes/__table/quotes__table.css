@@ -5,8 +5,15 @@
   gap: 45px;
 }
 
+@media screen and (max-width: 886px) {
+  .quotes__table {
+    justify-content: space-evenly;
+  }
+}
+
 @media screen and (max-width: 592px) {
   .quotes__table {
-    justify-content: center;
+    gap: 25px;
+    justify-content: flex-start;
   }
 }

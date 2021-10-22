@@ -5,7 +5,13 @@
 }
 
 @media screen and (max-width: 1080px) {
-  .quote__text{
+  .quote__text {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .quote__text {
+    font-size: 12px;
   }
 }

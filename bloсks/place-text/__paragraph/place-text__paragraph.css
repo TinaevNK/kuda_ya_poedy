@@ -25,3 +25,10 @@
     margin: 0 0 15px;
   }
 }
+
+@media screen and (max-width: 502px)  {
+  .place-text__paragraph {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
