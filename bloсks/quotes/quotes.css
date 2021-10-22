@@ -4,15 +4,5 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 92px;
-  padding-left: 92px;
-  padding-bottom: 92px;
-  padding-right: 48px;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 440px) {
-  .quotes {
-    padding-left: 24px;
-  }
+  max-width: 1140px;
 }

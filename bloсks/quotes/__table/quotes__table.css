@@ -1,7 +1,12 @@
 .quotes__table {
-  max-width: 1184px;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 45px;
+}
+
+@media screen and (max-width: 592px) {
+  .quotes__table {
+    justify-content: center;
+  }
 }

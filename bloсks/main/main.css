@@ -1,0 +1,17 @@
+.main {
+  display: grid;
+  gap: 130px;
+  justify-items: center;
+}
+
+@media screen and (max-width: 820px) {
+  .main {
+    gap: 110px;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .main {
+    gap: 70px;
+  }
+}

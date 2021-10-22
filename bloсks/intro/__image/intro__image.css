@@ -1,27 +1,13 @@
 .intro__image {
-  width: 100%;
-  object-fit: cover;
+  width: 26.125vw;
   max-width: 360px;
+  height: 26.125vw;
   max-height: 360px;
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 502px) {
   .intro__image {
-    max-width: 320px;
-    max-height: 320px;
-    margin-left: auto;
-  }
-}
-
-@media screen and (max-width: 690px) {
-  .intro__image {
-    margin: 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .intro__image {
-    max-width: 248px;
-    max-height: 248px;
+    width: 100vw;
+    height: 100vw;
   }
 }

@@ -4,7 +4,13 @@
   color: #000;
   font-weight: bold;
   font-size: 34px;
-  line-height: 40px;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 1038px) {
+  .intro__title {
+    font-size: 28px;
+  }
 }
 
 @media screen and (max-width: 768px) {

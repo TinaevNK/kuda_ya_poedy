@@ -1,7 +1,6 @@
 .quotes__title {
-  margin: 0;
+  margin: 0 0 98px;
   text-decoration: none;
-  padding-bottom: 98px;
   font-weight: bold;
   font-size: 34px;
   line-height: 40px;
@@ -12,12 +11,12 @@
   .quotes__title {
     font-size: 26px;
     line-height: 28px;
-    padding-bottom: 64px;
+    margin: 0 0 64px;
   }
 }
 
 @media screen and (max-width: 440px) {
   .quotes__title {
-    padding-bottom: 48px;
+    margin: 0 0 48px;
   }
 }

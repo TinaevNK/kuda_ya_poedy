@@ -1,5 +1,12 @@
 .place-image {
   width: 100%;
-  height: 544px;
-  object-fit: cover;
+  height: calc(50vw - 7.5vw);
+  max-height: 544px;
+}
+
+@media screen and (max-width: 752px) {
+  .place-image {
+    height: calc(100vw - 15vw);
+    max-height: 100%;
+  }
 }

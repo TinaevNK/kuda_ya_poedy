@@ -1,5 +1,19 @@
 .header {
   color: #000;
   font-family: Inter, Arial, Helvetica, sans-serif;
-  font-style: normal;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 55px 0 90px;
+}
+
+@media screen and (max-width: 1150px) {
+  .header {
+    padding: 55px 48px 90px;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .header {
+    padding: 55px 24px 90px;
+  }
 }

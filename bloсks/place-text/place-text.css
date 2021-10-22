@@ -8,3 +8,16 @@
   margin: 0 auto;
   padding: 65px 0 85px;
 }
+
+@media screen and (max-width: 1120px) {
+  .place-text {
+    padding: 15px 0 25px;
+    width: 86%;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .place-text {
+    gap: 20px;
+  }
+}

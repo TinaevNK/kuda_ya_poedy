@@ -9,3 +9,19 @@
 .place-text__paragraph:last-of-type {
   margin: 0;
 }
+
+@media screen and (max-width: 1035px) {
+  .place-text__paragraph {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0 0 7px;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .place-text__paragraph {
+    font-size: 14px;
+    line-height: 1.65;
+    margin: 0 0 15px;
+  }
+}

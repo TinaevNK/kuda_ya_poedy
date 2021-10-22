@@ -1,29 +1,13 @@
 .header__navigator {
-  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 38px 48px 46px;
-}
-
-@media screen and (max-width: 875px) {
-  .header__navigator {
-    padding-top: 48px;
-    padding-left: 24px;
-    padding-bottom: 48px;
-    padding-right: 24px;
-  }
 }
 
 @media screen and (max-width: 502px) {
   .header__navigator {
-    padding-top: 24px;
-    padding-bottom: 24px;
     flex-direction: column;
     align-items: flex-start;
-    /* предлагаю шапку оставить в горизонтальном виде и уменьшить шрифты
-    уже очень они большие, как заголовки получаются
-    Я думаю будет лучше сделать как в ПР3, на подобие */
   }
 }

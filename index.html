@@ -18,35 +18,16 @@
     <div class="page">
       <!-- Верстаем шапку -->
       <header class="header">
-        <!-- Отличное решение с nav! -->
         <nav class="header__navigator">
-          <!-- Для улучшения семантики предлагаю это сделать списком, оформишь?
-          для li класс можно будет не писать
-          У меня в работе пример как это сделать можно -->
           <ul class="header__slogan">
             <li><a href="#" class="header__link">Мечты</a></li>
-            <!-- новый элемент link это прозрачность при наведении ссылкам  -->
-            <!-- это блок получается, удали его, не по БЭМ. Прозрачность пропиши для самой ссылки
-            Указал правки в css -->
-            <!--Удалил link. удалил header__slogan-link. прописал список-->
             <li><a href="#" class="header__link">Ожидания</a></li>
             <li><a href="#" class="header__link">Реальность</a></li>
           </ul>
-          <!-- по своему функционалу header__link и header__slogan-link одинаковы
-          Предлагаю оставить только header__link, дабы не засорять код лишними элементами-->
-          <!--так и сделал. удалил header-slogan-link. В index.css переписал @Denis-->
           <a href="#" class="header__link">Пожаловаться</a>
         </nav>
       </header>
-      <!-- Небольшая просьба index.html и index.css оформить похожим образом, как я
-      сделал с header)
-      Правки похожие
-      Пока полностью не буду смотреть, порешаем в четверг -->
-      <!-- main не нужен класс вообще
-      Пустые классы лучше не делать, не будем засорять код -->
-      <main>
-        <!-- ему контейнер не нужен, прописывай стили непостредственно для intro
-        Я ещё уточню у наставников как лучше сделать, ибо мой ревьюер сказал делать именно так -->
+      <main class="main">
         <section class="intro">
           <div class="intro__text">
             <p class="intro__subtitle">Куда я поеду</p>
@@ -54,18 +35,22 @@
               Куда я поеду сразу, как можно будет куда-то поехать
             </h1>
           </div>
-          <img
-            class="intro__image"
-            src="images/intro-image.jpeg"
-            alt="крыло самолёта на восходе солнца"
-          />
+          <div class="intro__image">
+            <img
+              class="intro__photo"
+              src="images/intro-image.jpeg"
+              alt="Крыло самолёта на восходе солнца"
+            />
+          </div>
         </section>
         <section class="places">
-          <img
-            src="./images/places-forest.jpeg"
-            alt="Водопад"
-            class="place-image"
-          />
+          <article class="place-image">
+            <img
+              src="./images/places-forest.jpeg"
+              alt="Водопад"
+              class="place-image__photo"
+            />
+          </article>
           <article class="place-text">
             <h2 class="place-text__title">Поеду в лес</h2>
             <div class="place-text__description">
@@ -93,16 +78,20 @@
               </p>
             </div>
           </article>
-          <img
-            src="./images/places-mountains.jpeg"
-            alt="Горы"
-            class="place-image"
-          />
-          <img
-            src="./images/places-black-sea.jpeg"
-            alt="Чёрное море"
-            class="place-image"
-          />
+          <article class="place-image">
+            <img
+              src="./images/places-mountains.jpeg"
+              alt="Горы"
+              class="place-image__photo"
+            />
+          </article>
+          <article class="place-image">
+            <img
+              src="./images/places-black-sea.jpeg"
+              alt="Чёрное море"
+              class="place-image__photo"
+            />
+          </article>
           <article class="place-text">
             <h2 class="place-text__title">Поеду на Чёрное море</h2>
             <div class="place-text__description">
@@ -121,9 +110,6 @@
             </div>
           </article>
         </section>
-        <!-- третье изображение всё портит... из-за него max-height=544px(резина) ведёт себя не корректно
-        поэтому решил пока просто задать жёстко высоту, чтобы созранить пропорции
-        если есть идеи - в студию... я ещё подумаю завтра над этим -->
         <section class="quotes">
           <p class="quotes__subtitle">Люди</p>
           <h2 class="quotes__title">
@@ -164,21 +150,3 @@
     </div>
   </body>
 </html>
-
-<!-- Дэн, если какие вопросы - звони, обговорим
-Надеюсь к правкам хорошо отнесёшься
-есть только первое место и мы должны всё сделать по красоте
-Поэтому делаем всё по красоте и вылизываем как можем -->
-
-<!-- и ещё, посмотри у себя в гите настройки, чтобы новый репозиторий был
-сразу с веткой main, а не master-->
-<!-- и заодно переименуй нашу ветку, если не поймёшь как - сделаю я
-иначе нам порежут баллы за расизм:) -->
-
-<!-- по БЭМ правильней шрифты закидывать каждый в свою папку
-пример можешь глянуть в моей ПР3, сделаешь? ИСПРАВИЛ-->
-
-<!-- и ещё, блоки это blocks, не bloks:) ИСПРАВИЛ -->
-<!-- пути в index.css соответственно надо тоже править ИСПРАВИЛ -->
-
-<!-- кстати картинки я подужал в размере, чтобы быстрее всё загружалось! -->

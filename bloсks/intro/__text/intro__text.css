@@ -1,5 +1,10 @@
 .intro__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  max-width: 50%;
+}
+
+@media screen and (max-width: 502px) {
+  .intro__text {
+    max-width: 86%;
+    padding: 0 0 24px;
+  }
 }
