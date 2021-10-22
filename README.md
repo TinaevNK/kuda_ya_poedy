@@ -1,63 +1,36 @@
-header
-  header__slogan
-  header__slogan
-  header__slogan
-  header__link
-header
-main
-  intro
-    intro__subtitle
-    intro__title
-    intro__photo
-  intro
-  places
-    place
-      place__title
-      place__image
-      place__text
-        place__paragrph
-        place__paragrph
-      place__text
-    place
-    place
-      place__title
-      place__image
-      place__text
-        place__paragrph
-        place__paragrph
-      place__text
-    placeplace
-      place__title
-      place__image
-      place__text
-        place__paragrph
-        place__paragrph
-      place__text
-    place
-  places
-  quotes
-    quotes__subtitle
-    quotes__title
-    quote
-      quotes__author
-      quotes__text
-    quote
-    quote
-      quotes__author
-      quotes__text
-    quote
-    quote
-      quotes__author
-      quotes__text
-    quote
-    quote
-      quotes__author
-      quotes__text
-    quote
-  quotes
-main
-footer
-  footer__year
-footer
+# *Проект: Путешествие по России*
+Данный проект является тренировочной работой на
+***Яндекс.Практикуме***.
 
+---
+## *Описание*
+----
+### **О чём проект?**
 
+Это сайт о том куда может поехать человек отдыхать
+
+---
+  ### **Функциональность и используемые технологии:**
+
+* Данный проект является *одностраничным* сайтом, написанный на языке разметки HTML5.
+* Стили и картинки в самостоятельных папках и разбиты по блокам. Создана файловая структура по БЭМ (Nested)
+* Для создания сеток используется  `flex` и `grid`
+* Реализованны переходы состояний ссылок (плавное затенение)
+* Сайт адаптивен. Корректно отображается на самых популярных разрешениях экрана
+* Проект раелизован по макету из PNG
+* Ссылка на реализованный [проект](https://ddenyy.github.io/kuda_ya_poedy/)
+
+---
+## *Планы по доработке*
+
+---
+
+- Реализовать англоязычную версию сайта
+- Добавить форму для отправки отзыва о сайте
+
+## *Авторы*
+
+---
+
+- Тинаев Никита [VK](https://vk.com/nikkach)
+- Осипов Денис [VK](https://vk.com/ddenios)

@@ -4,7 +4,7 @@
   max-width: 250px;
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1150px) {
   .quote {
     max-width: 210px;
   }

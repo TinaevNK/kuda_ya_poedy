@@ -1,0 +1,13 @@
+.footer__year{
+  font-style: normal;
+  font-weight: bold;
+  width: fit-content;
+  font-size: 36px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 502px) {
+  .footer__year{
+    font-size: 26px
+  }
+}

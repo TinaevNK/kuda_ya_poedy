@@ -62,3 +62,10 @@
 @import url(../bloсks/quote/__author/quote__author.css);
 /*элемент text*/
 @import url(../bloсks/quote/__text/quote__text.css);
+
+
+/*блок footer*/
+@import url(../bloсks/footer/footer.css);
+/*элемент footer__year*/
+@import url(../bloсks/footer/__year/footer__year.css);
+
